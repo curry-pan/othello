@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Monacanoid</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="components/loader.js"></script>
+    <script src="js/main.js"></script> 
+</head>
+<body>
+    <img id="title" src="img/title.png">
+    <div>
+        <input type="checkbox" name="blind" id="blind">目隠しモード<br>
+        制限時間<select name="time" id="time">
+            <option value="-1">無制限</option>
+            <option value="3000">3秒</option>
+            <option value="5000">5秒</option>
+            <option value="10000">10秒</option>
+        </select><br>
+        <input id="start" type="image" src="img/start.png" onclick="setup()" src="img/start.png">
+    </div>
+    <p id="color"></p>
+</body>
+</html>

@@ -1,0 +1,58 @@
+@font-face {
+    font-family: vt;
+    src: url(../res/VT323-Regular.ttf) format("truetype");
+}
+
+* {
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+body {
+    background-color:white;
+    width: auto;
+}
+
+#title {
+    width: 80%;
+    max-width: 500px;
+    display: block;
+    margin-top: 3vw;
+}
+
+input {
+    margin-top: 3vw;
+}
+
+#start {
+    max-width: 150px;
+    width: 23vw;
+    font-size: 10%;
+    aspect-ratio: 2/1;
+}
+
+select {
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+}
+
+table {
+    margin: auto;
+    background-color: black;
+}
+
+td {
+    width: 8vw;
+    table-layout: fixed;
+    background-color: #0F0;
+    min-width: 30px;
+    max-width: 80px;
+}
+td > div{
+    aspect-ratio: 1/1;
+}
+img {
+    width: 100%;
+}
